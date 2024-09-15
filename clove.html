@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Zenitsu">
+    <link rel="shortcut icon" type="image/png" href="/agents/clove.png">
+    <title>Clove</title>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/2bf095b9ea.js" crossorigin="anonymous"></script>
+    <!-- JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css/js for this template -->
+    <link href="custom_css.css" rel="stylesheet">
+    <script src="custom_js.js"></script>
+    <script></script>
+  </head>
+
+  <style>
+    body {
+      background-image: url(./bg/clove.jpeg);
+      background-repeat: no-repeat;
+      width: auto;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+</style>
+
+  <body class="bg-dark mt-5 py-5">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="btn-lg btn-outline-dark bg-dark border-2" data-toggle="tooltip" data-placement="bottom" title="Home Page" href='./'>
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+            </li>
+          </ul>
+    </nav>
+
+    <audio autoplay id="background-music" loop>
+      <source src="./bgms/Clove_BGM.mp3" type="audio/mpeg">
+  </audio>
+  </body>
+
+  <main role="main" class="container">
+    <div class="w-50 pt-2 pb-5 mx-auto text-center text-light">
+      <h1 class='shadow-title'><span class="text-danger text-size-5">NO.24 //</span><span class="text-clove font-weight-bold"> CLOVE </span></h1>
+      <div class=""><small>"Back Like I Never Left!"</small></div>
+    </div>
+    <div class="row justify-content-around text-light">
+      <div class="col-lg-4">
+        <div class="card border border-clove bg-darkest mb-4 shadow-lg">
+          <img src="agents/clove_m.png" class="card-img-top" alt="">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-darkest">
+              <div class="row">
+                <div class="col-lg-5"><strong> Real Name </strong></div>
+                <div class="col-lg-7"> Isla Campbell </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-top border-bottom border-clove">
+              <div class="row">
+                <div class="col-lg-5"><strong> Origin </strong></div>
+                <div class="col-lg-7"> Scotland </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-bottom border-clove">
+              <div class="row">
+                <div class="col-lg-5"><strong> Affiliation </strong></div>
+                <div class="col-lg-7"> Valorant Protocol </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest">
+                <div class="badge badge-danger"> <img height="10px" style="vertical-align: top" src="agents/controller.svg"> Controller </div>
+                <div class="badge bg-primary"> Female </div>
+                <div class="badge badge-light"> Easy </div>
+                <div class="badge badge-warning"> Number 24 </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-white bg-darkest mb-4 border border-clove shadow-lg">
+          <strong id="contract-toggle" class="card-header border-bottom border-clove"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Contract Skin </strong>
+          <div class="card-body show text-center contract-zoom rounded">
+            <img src="agents/clove_w.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-4 border border-clove shadow-lg">
+              <strong id="bio-toggle" class="card-header border-bottom border-clove"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>Biography </strong>
+              <div class="card-body show">
+                <div class="mt-3"> <small class="text-muted"> 
+                  "Scottish troublemaker Clove makes mischief for enemies in both the heat of combat and the cold of death. The young immortal keeps foes guessing, even from beyond the grave, their return to the living only ever a moment away." 
+                </small> </div>
+                <p class="card-text mt-4 mb-2"> 
+                    The young Scottish VALORANT agent Clove possesses powers unprecedented among even their fellow radiants - the power over the <span class="text-danger">essences of life</span> and <span class="text-danger">immortality</span>. Each death instead brings them to a whole <span class="text-danger">new world</span>, a junction between the realms of the living and the dead, one that Clove will journey through on their way to return to life and <span class="text-danger">resurrect</span> themselves. But such abilities are unlikely to be a blessing forever, and Clove themselves finds they can never spend too long in the junction beyond life as the longer they spend there, the harder it is to return.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"> </div>
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-3 border border-clove shadow-lg">
+              <strong id="abilities-toggle" class="card-header border-bottom border-clove"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Abilities </strong>
+              <div class="card-body text-center show">
+                <div class="btn-toolbar btn-toolbar-sm mt-3 d-inline-block" role="group" aria-label="Basic example">
+                  <button id="a1-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/clove_1.png"></button>
+                  <button id="a2-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/clove_2.png"></button>
+                  <button id="a3-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/clove_3.png"></button>
+                  <button id="a4-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/clove_4.png"></button>
+                </div>
+                <div id="a1">
+                  <h3 class="text-clove shadow-title"> <strong>Pick-me-up</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">ACTIVATE</strong> to absorb the life force of a fallen enemy that Clove damaged or killed, gaining haste and temporary health.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Basic </div>
+                    <div class="badge badge-danger"> Bonus movement speed: +15% </div>
+                    <div class="badge badge-success"> Buff Duration: 8s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Max Duration Allowed for Damaging Assist to Enable Ability Activation: 0.6s </div>
+                    <div class="badge badge-primary"> Cost: 200 </div>
+                    <div class="badge badge-secondary"> Overhealing Rates: <b><u>Healing:</u></b> 100 HP/s, <b><u>Decay:</u></b> 50 HP/s </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a1-v" class="embed-responsive-item" autoplay loop muted><source src="agents/clove_1_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a2" class="no-display">
+                  <h3 class="text-clove shadow-title"> <strong>Meddle</strong> </h3>
+                  <div class="mb-3">
+                    <strong class="text-warning">EQUIP</strong> a fragment of immortality essence. <strong class="text-warning">FIRE</strong> to throw the fragment, which erupts after a short delay and temporarily Decays all targets caught inside.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Basic </div>
+                    <div class="badge badge-danger"> Max Decayed HP: 90 </div>
+                    <div class="badge badge-success"> Windup: 1.3s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Radius: 6m </div>
+                    <div class="badge badge-primary"> Cost: 250 </div>
+                    <div class="badge badge-secondary"> Decay Rates: <u><b>Decay:</b></u> 90 HP over 0.75 seconds (120 HP/s), <u><b>Restoration:</b></u> 90 HP over 1.75 seconds (51 HP/s) </div>
+                    <div class="badge badge-warning"> Decay Duration: 5s </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a2-v" class="embed-responsive-item" autoplay loop muted><source src="agents/clove_2_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a3" class="no-display">
+                  <h3 class="text-clove shadow-title"> <strong>Ruse</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a view of the battlefield. <strong class="text-warning">FIRE</strong> to set the locations where Clove’s clouds will settle. <strong class="text-warning">ALT FIRE</strong> to confirm, launching clouds that block vision in the chosen areas. Clove can use this ability even after death.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Signature </div>
+                    <div class="badge badge-danger"> Max Cast Ranged: 55 meters (Alive), 42.5 meters (Dead) </div>
+                    <div class="badge badge-success"> Windup: 1s </div>
+                    <div class="badge badge-info"> Uses: 2 </div>
+                    <div class="badge badge-light"> Restock: 30s </div>
+                    <div class="badge badge-primary"> Cost: 150 </div>
+                    <div class="badge badge-secondary"> Radius: 4.72m </div>
+                    <div class="badge badge-warning"> Duration: 13.5s </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a3-v" class="embed-responsive-item" autoplay loop muted><source src="agents/clove_3_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a4" class="no-display">
+                  <h3 class="text-clove shadow-title"> <strong>Not Dead Yet</strong> </h3>
+                  <div class="mb-3"> 
+                    After dying, <strong class="text-warning">ACTIVATE</strong> to resurrect. Once resurrected, Clove must earn a kill or a damaging assist within a set time or they will die. <strong class="text-warning">REACTIVATE</strong> to cancel early.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Ultimate </div>
+                    <div class="badge badge-danger"> Revive Duration: 1.5s </div>
+                    <div class="badge badge-success"> Maximum Intangibility Duration: 2s </div>
+                    <div class="badge badge-info"> Deactivation Duration: 0.8s </div>
+                    <div class="badge badge-light"> Resurrection Timer: 8s </div>
+                    <div class="badge badge-primary"> Cost: 8 Charges </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a4-v" class="embed-responsive-item" autoplay loop muted><source src="agents/clove_4_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>

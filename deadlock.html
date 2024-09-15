@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Zenitsu">
+    <link rel="shortcut icon" type="image/png" href="/agents/deadlock.png">
+    <title>Deadlock</title>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/2bf095b9ea.js" crossorigin="anonymous"></script>
+    <!-- JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css/js for this template -->
+    <link href="custom_css.css" rel="stylesheet">
+    <script src="custom_js.js"></script>
+    <script></script>
+  </head>
+
+  <style>
+    body {
+      background-image: url(./bg/deadlock.jpg);
+      background-repeat: no-repeat;
+      width: auto;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+</style>
+
+  <body class="bg-dark mt-5 py-5">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="btn-lg btn-outline-dark bg-dark border-2" data-toggle="tooltip" data-placement="bottom" title="Home Page" href='./'>
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+            </li>
+          </ul>
+    </nav>
+
+    <audio autoplay id="background-music" loop>
+      <source src="./bgms/Deadlock_BGM.mp3" type="audio/mpeg">
+  </audio>
+  </body>
+
+  <main role="main" class="container">
+    <div class="w-50 pt-2 pb-5 mx-auto text-center text-light">
+      <h1 class='shadow-title'><span class="text-danger text-size-5">NO.22 //</span><span class="text-deadlock font-weight-bold"> DEADLOCK </span></h1>
+      <div class=""><small>"Pull Them To Their Grave!"</small></div>
+    </div>
+    <div class="row justify-content-around text-light">
+      <div class="col-lg-4">
+        <div class="card border border-deadlock bg-darkest mb-4 shadow-lg">
+          <img src="agents/deadlock_m.png" class="card-img-top" alt="">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-darkest">
+              <div class="row">
+                <div class="col-lg-5"><strong> Real Name </strong></div>
+                <div class="col-lg-7"> Iselin </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-top border-bottom border-deadlock">
+              <div class="row">
+                <div class="col-lg-5"><strong> Origin </strong></div>
+                <div class="col-lg-7"> Norway </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-bottom border-deadlock">
+              <div class="row">
+                <div class="col-lg-5"><strong> Affiliation </strong></div>
+                <div class="col-lg-7"> Valorant Protocol, Ståljeger </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest">
+                <div class="badge badge-danger"> <img height="10px" style="vertical-align: top" src="agents/sentinel.svg"> Sentinel </div>
+                <div class="badge bg-primary"> Female </div>
+                <div class="badge badge-light"> Medium </div>
+                <div class="badge badge-warning"> Number 22 </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-white bg-darkest mb-4 border border-deadlock shadow-lg">
+          <strong id="contract-toggle" class="card-header border-bottom border-deadlock"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Contract Skin </strong>
+          <div class="card-body show text-center contract-zoom rounded">
+            <img src="agents/deadlock_w.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-4 border border-deadlock shadow-lg">
+              <strong id="bio-toggle" class="card-header border-bottom border-deadlock"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>Biography </strong>
+              <div class="card-body show">
+                <div class="mt-3"> <small class="text-muted"> 
+                  "Norwegian operative Deadlock deploys an array of cutting-edge nanowire to secure the battlefield from even the most lethal assault. No one escapes her vigilant watch, nor survives her unyielding ferocity." 
+                </small> </div>
+                <p class="card-text mt-4 mb-2"> 
+                    At one point during the VALORANT Protocol's investigations into a Los Angeles-based Kingdom Corporation project called "<span class="text-danger">Landfall</span>", the organization was able to pick up on chatter about a cargo pickup happening in Norway. Viewing this to be something of interest, the Protocol sent Sova to follow the team and track down its destination. Leading him to a specialized facility known as <span class="text-danger">The Vault</span> in the far northern archipelago of Svalbard, Sova arrived to find no activity there, no signs of life, except for a faint beacon activated from within. Entering The Vault, the Russian eventually made his way to a containment room to discover the aftermath of an attack, with all the pickup team dead except for <span class="text-danger">one</span> remaining survivor - a <span class="text-danger">blonde-haired</span> woman with one of her arms completely <span class="text-danger">obliterated</span>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"> </div>
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-3 border border-deadlock shadow-lg">
+              <strong id="abilities-toggle" class="card-header border-bottom border-deadlock"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Abilities </strong>
+              <div class="card-body text-center show">
+                <div class="btn-toolbar btn-toolbar-sm mt-3 d-inline-block" role="group" aria-label="Basic example">
+                  <button id="a1-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/deadlock_1.png"></button>
+                  <button id="a2-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/deadlock_2.png"></button>
+                  <button id="a3-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/deadlock_3.png"></button>
+                  <button id="a4-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/deadlock_4.png"></button>
+                </div>
+                <div id="a1">
+                  <h3 class="text-deadlock shadow-title"> <strong>GravNet</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a GravNet grenade. <strong class="text-warning">FIRE</strong> to throw. <strong class="text-warning">ALT FIRE</strong> to lob. The GravNet detonates upon landing, forcing any characters caught within to crouch and move slowly.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Basic </div>
+                    <div class="badge badge-danger"> Slow Amount: 70% </div>
+                    <div class="badge badge-success"> Windup: 0.1s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Radius: 8m </div>
+                    <div class="badge badge-primary"> Cost: 200 </div>
+                    <div class="badge badge-secondary"> Net Removal Channel Time: 8s </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a1-v" class="embed-responsive-item" autoplay loop muted><source src="agents/deadlock_1_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a2" class="no-display">
+                  <h3 class="text-deadlock shadow-title"> <strong>Sonic Sensor</strong> </h3>
+                  <div class="mb-3">
+                    <strong class="text-warning">EQUIP</strong> a Sonic Sensor. <strong class="text-warning">FIRE</strong> to deploy. The sensor monitors an area for enemies making sound. It concusses that area if footsteps, weapons fire, or significant noise are detected.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Basic </div>
+                    <div class="badge badge-danger"> Concuss Duration: 3.5s </div>
+                    <div class="badge badge-success"> Windup: 0.5s </div>
+                    <div class="badge badge-info"> Uses: 2 </div>
+                    <div class="badge badge-light"> Area: 9m Length, 8m Width, 2m Depth </div>
+                    <div class="badge badge-primary"> Cost: 200 </div>
+                    <div class="badge badge-secondary"> HP: 20 </div>
+                    <div class="badge badge-warning"> Deploy Time: 1.75s </div>
+                    <div class="badge badge-danger"> Max Deploy Distance: 14m </div>
+                    <div class="badge badge-success"> Max deployable Height: 4.5m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a2-v" class="embed-responsive-item" autoplay loop muted><source src="agents/deadlock_2_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a3" class="no-display">
+                  <h3 class="text-deadlock shadow-title"> <strong>Barrier Mesh</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a Barrier Mesh disc. FIRE to throw forward. Upon landing, the disc generates barriers from the origin point that block character movement.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Signature </div>
+                    <div class="badge badge-danger"> HP: <b><u>Central Orb:</u></b> 680/1,200 HP, <u><b>Small Orbs:</b></u> 320/570 HP (Initial/Fortified) </div>
+                    <div class="badge badge-success"> Deploy Time: 1s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Barrier Lengths: 10m </div>
+                    <div class="badge badge-primary"> Cost: 150 </div>
+                    <div class="badge badge-secondary"> Time Taken to Fortify: 3s (Begins on impact with ground) </div>
+                    <div class="badge badge-warning"> Duration: 30s </div>
+                    <div class="badge badge-danger"> Restock: N/A </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a3-v" class="embed-responsive-item" autoplay loop muted><source src="agents/deadlock_3_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a4" class="no-display">
+                  <h3 class="text-deadlock shadow-title"> <strong>Annihilation</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a Nanowire Accelerator. <strong class="text-warning">FIRE</strong> to unleash a pulse of nanowires that captures the first enemy contacted. The cocooned enemy is pulled along a nanowire path and will die if they reach the end, unless they are freed. The nanowire cocoon is destructible.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Ultimate </div>
+                    <div class="badge badge-danger"> Cocoon Duration: 7s </div>
+                    <div class="badge badge-success"> HP: 600 </div>
+                    <div class="badge badge-info"> Pulse Radius: 3m </div>
+                    <div class="badge badge-light"> Pulse Speed: 82.5 m/s </div>
+                    <div class="badge badge-primary"> Cost: 7 Charges </div>
+                    <div class="badge badge-primary"> Maximum Pulse Travel Distance: 40m </div>
+                    <div class="badge badge-secondary"> Pulse Radius at Path End: 6.5m </div>
+                    <div class="badge badge-warning"> Equip Time: 1.1s </div>
+                    <div class="badge badge-danger"> Windup Duration: 0.5s </div>
+                    <div class="badge badge-success"> Self-Knockback Distance: 1.5m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a4-v" class="embed-responsive-item" autoplay loop muted><source src="agents/deadlock_4_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>

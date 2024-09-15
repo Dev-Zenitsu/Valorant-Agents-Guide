@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Zenitsu">
+    <link rel="shortcut icon" type="image/png" href="/agents/fade.png">
+    <title>Fade</title>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/2bf095b9ea.js" crossorigin="anonymous"></script>
+    <!-- JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css/js for this template -->
+    <link href="custom_css.css" rel="stylesheet">
+    <script src="custom_js.js"></script>
+    <script></script>
+  </head>
+
+  <style>
+    body {
+      background-image: url(./bg/fade.jpeg);
+      background-repeat: no-repeat;
+      width: auto;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+</style>
+
+  <body class="bg-dark mt-5 py-5">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="btn-lg btn-outline-dark bg-dark border-2" data-toggle="tooltip" data-placement="bottom" title="Home Page" href='./'>
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+            </li>
+          </ul>
+    </nav>
+
+    <audio autoplay id="background-music" loop>
+      <source src="./bgms/Fade_BGM.mp3" type="audio/mpeg">
+  </audio>
+  </body>
+
+  <main role="main" class="container">
+    <div class="w-50 pt-2 pb-5 mx-auto text-center text-light">
+      <h1 class='shadow-title'><span class="text-danger text-size-5">NO.19 //</span><span class="text-fade font-weight-bold"> FADE </span></h1>
+      <div class=""><small>"Face your Fear!"</small></div>
+    </div>
+    <div class="row justify-content-around text-light">
+      <div class="col-lg-4">
+        <div class="card border border-fade bg-darkest mb-4 shadow-lg">
+          <img src="agents/fade_m.png" class="card-img-top" alt="">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-darkest">
+              <div class="row">
+                <div class="col-lg-5"><strong> Real Name </strong></div>
+                <div class="col-lg-7"> Hazal Eyletmez </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-top border-bottom border-fade">
+              <div class="row">
+                <div class="col-lg-5"><strong> Origin </strong></div>
+                <div class="col-lg-7"> Türkiye </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-bottom border-fade">
+              <div class="row">
+                <div class="col-lg-5"><strong> Affiliation </strong></div>
+                <div class="col-lg-7"> Valorant Protocol, REALM </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest">
+                <div class="badge badge-danger"> <img height="10px" style="vertical-align: top" src="agents/initiator.svg"> Initiator </div>
+                <div class="badge bg-primary"> Female </div>
+                <div class="badge badge-light"> Medium </div>
+                <div class="badge badge-warning"> Number 19 </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-white bg-darkest mb-4 border border-fade shadow-lg">
+          <strong id="contract-toggle" class="card-header border-bottom border-fade"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Contract Skin </strong>
+          <div class="card-body show text-center contract-zoom rounded">
+            <img src="agents/fade_w.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-4 border border-fade shadow-lg">
+              <strong id="bio-toggle" class="card-header border-bottom border-fade"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>Biography </strong>
+              <div class="card-body show">
+                <div class="mt-3"> <small class="text-muted"> 
+                  "Turkish bounty hunter Fade unleashes the power of raw nightmare to seize enemy secrets. Attuned with terror itself, she hunts down targets and reveals their deepest fears - before crushing them in the dark." 
+                </small> </div>
+                <p class="card-text mt-4 mb-2"> 
+                    A Radiant from Türkiye, Hazal Eyletmez searches for a person of importance to her after he was 'taken from her'. Using her ability to see <span class="text-danger">nightmare-visions</span>, her interpretations initially led her to suspect that he had been kidnapped by a secret organization she found to be the <span class="text-danger">VALORANT Protocol</span>. Eyletmez decided to contact the Protocol under an anonymous mark, threatening to <span class="text-danger">expose</span> the organization if she found out they were responsible for the kidnapping. When they appeared to only have interest in tracking her down rather than take her seriously, she then contacted each agent personally with a <span class="text-danger">dossier</span> about them to show how much she knew about VALORANT's people and what she could expose to the public if they had no interest in proving their innocence.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"> </div>
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-3 border border-fade shadow-lg">
+              <strong id="abilities-toggle" class="card-header border-bottom border-fade"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Abilities </strong>
+              <div class="card-body text-center show">
+                <div class="btn-toolbar btn-toolbar-sm mt-3 d-inline-block" role="group" aria-label="Basic example">
+                  <button id="a1-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/fade_1.png"></button>
+                  <button id="a2-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/fade_2.png"></button>
+                  <button id="a3-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/fade_3.png"></button>
+                  <button id="a4-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/fade_4.png"></button>
+                </div>
+                <div id="a1">
+                  <h3 class="text-fade shadow-title"> <strong>Prowler</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a prowler. <strong class="text-warning">FIRE</strong> to send the prowler forward. <strong class="text-warning">HOLD FIRE</strong> to steer the prowler towards your crosshair. The prowler will chase down the first enemy or terror trail it sees, and nearsight the enemy on impact.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Search Duration: 2.5s</div>
+                    <div class="badge badge-success"> Detection Distance: 15m </div>
+                    <div class="badge badge-info"> Uses: 2 </div>
+                    <div class="badge badge-light"> Speed: 10 m/s(Initial), 12 m/s(After Detecting Enemy) </div>
+                    <div class="badge badge-primary"> Cost: 250 </div>
+                    <div class="badge badge-secondary"> HP: 60 </div>
+                    <div class="badge badge-danger"> Proximity Needed to Target to Nearsight: 2.5m</div>
+                    <div class="badge badge-success"> Nearsight Duration: 2.75s </div>
+                    <div class="badge badge-info"> Nearsight Vision Radius: 5.5m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a1-v" class="embed-responsive-item" autoplay loop muted><source src="agents/fade_1_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a2" class="no-display">
+                  <h3 class="text-fade shadow-title"> <strong>Seize</strong> </h3>
+                  <div class="mb-3">
+                    <strong class="text-warning">EQUIP</strong> a knot of raw fear. <strong class="text-warning">FIRE</strong> to throw. The knot drops down after a set time. <strong class="text-warning">RE-USE</strong> to drop the knot early. The knot ruptures on impact, holding nearby enemies in place. Held enemies are Deafened, and Decayed.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Decay Stats: 75 HP </div>
+                    <div class="badge badge-success"> Windup: 0.7s  </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Cost: 200 </div>
+                    <div class="badge badge-primary"> Maximum Air Time: 1.5s </div>
+                    <div class="badge badge-secondary"> Zone: 6.58m(Radius), 4.5s(Duration) </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a2-v" class="embed-responsive-item" autoplay loop muted><source src="agents/fade_2_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a3" class="no-display">
+                  <h3 class="text-fade shadow-title"> <strong>Haunt</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a haunting watcher. <strong class="text-warning">FIRE</strong> to throw. The watcher drops down after a set time. <strong class="text-warning">RE-USE</strong> to drop the watcher early. The watcher lashes out on impact, Revealing enemies in its line of sight and creating terror trails to them. Enemies can destroy the watcher.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Trail Duration: 12s </div>
+                    <div class="badge badge-success"> Eye Duration: 2s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Reset: 40s </div>
+                    <div class="badge badge-primary"> Cost: Free </div>
+                    <div class="badge badge-secondary"> Radius: 30m </div>
+                    <div class="badge badge-info"> Maximum Air Time: 1.5s </div>
+                    <div class="badge badge-danger"> HP: 1 </div>
+                    <div class="badge badge-success"> Windup: 0.825s </div> 
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a3-v" class="embed-responsive-item" autoplay loop muted><source src="agents/fade_3_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a4" class="no-display">
+                  <h3 class="text-fade shadow-title"> <strong>Nightfall</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> the power of nightmare itself. <strong class="text-warning">FIRE</strong> to unleash a wave of unstoppable nightmare energy. Enemies caught in the wave are Marked by terror trails, Deafened, and Decayed.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Decay Stats: 75 HP, Health Restored at 6.25 HP/second </div>
+                    <div class="badge badge-success"> Area Size: 40m(Length), 24m(Width) </div>
+                    <div class="badge badge-info"> Windup: 0.6s </div>
+                    <div class="badge badge-light"> Ticks/Tick Rate: 1 every 0.355s, Total 10 Ticks </div>
+                    <div class="badge badge-primary"> Deafen & Mark Duration: 12s </div>
+                    <div class="badge badge-secondary"> Cost: 8 Charges </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a4-v" class="embed-responsive-item" autoplay loop muted><source src="agents/fade_4_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>

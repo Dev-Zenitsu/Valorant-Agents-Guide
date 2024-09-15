@@ -1,0 +1,303 @@
+html, body {
+  height: 100%;
+}
+
+.shadow-title {
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+.border-3 {
+  border-width:3.5px !important;
+}
+
+.border-2 {
+  border-width:2px !important;
+}
+
+.border-yoru{
+  border-color: #0A3EFF !important;
+}
+
+.border-omen{
+  border-color: #7C7EB7 !important;
+}
+
+.border-jett {
+  border-color: #76eee4 !important;
+}
+
+.border-sage {
+  border-color: #5dbcd2 !important;
+}
+
+.border-breach {
+  border-color: #aa441d !important;
+}
+
+.border-killjoy {
+  border-color: #ddbd5e !important;
+}
+
+.border-reyna {
+  border-color: #632963 !important;
+}
+
+.border-phoenix {
+  border-color:	#E99858 !important;
+}
+
+.border-raze {
+  border-color: #F76B2E !important;
+}
+
+.border-astra {
+  border-color: #8C56D3 !important;
+}
+
+.border-cypher {
+  border-color: #8fa0ab !important;
+}
+
+.border-brimstone {
+  border-color: #6e4f4c !important;
+}
+
+.border-omen {
+  border-color: #7079b7 !important;
+}
+
+.border-skye {
+  border-color:	#73c697 !important;
+}
+
+.border-sova {
+  border-color: #4362a9 !important;
+}
+
+.border-viper {
+  border-color: #1f8044 !important;
+}
+
+.border-kayo{
+  border-color: #4168F5 !important;
+}
+
+.border-chamber{
+  border-color: #CDA95F !important;
+}
+
+.border-neon{
+  border-color: #113d9e !important;
+}
+
+.border-fade{
+  border-color: #2d3d59 !important;
+}
+
+.border-harbor{
+  border-color: #4F7594 !important;
+}
+
+.border-gekko{
+  border-color: #C9EB79 !important;
+}
+
+.border-deadlock{
+  border-color: #8EADEE !important;
+}
+
+.border-iso{
+  border-color: #483DAC !important;
+}
+
+.border-clove{
+  border-color: #E484A2 !important;
+}
+
+.border-vyse{
+  border-color: #6E718B !important;
+}
+
+.bg-darker {
+  background-color: #313131;
+}
+
+.bg-darker-light {
+  background-color: rgb(34, 40, 49, 0.75);
+}
+
+.bg-darkest {
+  background-color: #222831;
+}
+
+.char-zoom {
+  background-color: rgb(34, 40, 49, 0.75);
+  transition: transform .2s;
+}
+
+.char-zoom:hover {
+  transform: scale(1.6);
+  background-color: rgb(34, 40, 49, 1);
+  z-index: 1;
+}
+
+.btn-zoom {
+  transition: transform .2s;
+}
+
+.btn-zoom:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.bg-img {
+  background-image: url(agents/background.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.no-display {
+  display: none;
+}
+
+.no-opacity {
+  opacity: 0;
+}
+
+.bg-pink {
+  background-color: #9c528b;
+}
+
+.text-reyna {
+  color:#806ab2 !important;
+}
+
+.text-raze {
+  color:#dd9160 !important;
+}
+
+.text-phoenix {
+  color:#d6b896 !important;
+}
+
+.text-breach {
+  color:#aa441d !important;
+}
+
+.text-sova {
+  color:#4362a9 !important;
+}
+
+.text-skye {
+  color:#73c697 !important;
+}
+
+.text-omen {
+  color:#7079b7 !important;
+}
+
+.text-brimstone {
+  color: #6e4f4c !important;
+}
+
+.text-viper {
+  color: #1f8044 !important;
+}
+
+.text-sage {
+  color: #5dbcd2 !important;
+}
+
+.text-cypher {
+  color: #8fa0ab !important;
+}
+
+.text-killjoy {
+  color: #ddbd5e !important;
+}
+
+.text-yoru{
+  color: #0A3EFF !important;
+}
+
+.text-astra{
+ color: #8C56D3 !important;
+}
+
+.text-jett{
+  color: #76eee4 !important;
+}
+
+.text-kayo{
+  color: #4168F5 !important;
+}
+
+.text-chamber{
+  color: #CDA95F !important;
+}
+
+.text-neon{
+  color: #75EAF1 !important;
+}
+
+.text-fade{
+  color: #517baf !important;
+}
+
+.text-harbor{
+  color: #4F7594 !important;
+}
+
+.text-gekko{
+  color: #C9EB79 !important;
+}
+
+.text-deadlock{
+  color: #8EADEE !important;
+}
+
+.text-iso{
+  color: #483DAC !important;
+}
+
+.text-clove{
+  color: #E484A2 !important;
+}
+
+.text-vyse{
+  color: #6E718B !important;
+}
+
+.text-size-5 {
+  font-size: 1.25rem;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+#bio-toggle:hover, #abilities-toggle:hover, #contract-toggle:hover {
+  user-select: none;
+  cursor: pointer;
+}
+
+
+.contract-zoom {
+  background-color: rgb(34, 40, 49, 1);
+  transition: transform .2s;
+}
+
+.contract-zoom:hover {
+  transform: scale(1.6);
+  background-color: rgb(34, 40, 49, 1);
+  z-index: 1;
+}

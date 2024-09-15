@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Zenitsu">
+    <link rel="favicon icon" type="image/png" href="/agents/yoru.png">
+    <title>Yoru</title>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/2bf095b9ea.js" crossorigin="anonymous"></script>
+    <!-- JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css/js for this template -->
+    <link href="custom_css.css" rel="stylesheet">
+    <script src="custom_js.js"></script>
+  
+    <style>
+        body {
+          background-image: url(./bg/yoru.jpg);
+          background-repeat: no-repeat;
+          width: auto;
+          height: 100%;
+          background-size: cover;
+          background-position: center center;
+          background-attachment: fixed;
+        }
+    </style>
+
+</head>
+
+  <body class="bg-dark mt-5 py-5">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="btn-lg btn-outline-dark bg-dark border-2" data-toggle="tooltip" data-placement="bottom" title="Home Page" href='./'>
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+            </li>
+        </ul>
+                            
+    <audio autoplay id="background-music" loop>
+      <source src="./bgms/Yoru_BGM.mp3" type="audio/mpeg">
+  </audio>
+    </nav>
+  </body>
+
+  <main role="main" class="container">
+    <div class="w-50 pt-2 pb-5 mx-auto text-center text-light">
+      <h1 class='shadow-title'><span class="text-danger text-size-5">NO.14 //</span><span class="text-yoru font-weight-bold"> YORU </span></h1>
+      <div class=""><small>“I'll handle this!'”</small></div>
+    </div>
+    <div class="row justify-content-around text-light">
+      <div class="col-lg-4">
+        <div class="card border border-yoru bg-darkest mb-4 shadow-lg">
+          <img src="agents/yoru_m.png" class="card-img-top" alt="">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-darkest">
+              <div class="row">
+                <div class="col-lg-5"><strong> Real Name </strong></div>
+                <div class="col-lg-7"> Kiritani Ryo </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-top border-bottom border-yoru">
+              <div class="row">
+                <div class="col-lg-5"><strong> Origin </strong></div>
+                <div class="col-lg-7"> Japan </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-bottom border-yoru">
+              <div class="row">
+                <div class="col-lg-5"><strong>Affiliation </strong></div>
+                <div class="col-lg-7"> Valorant Protocol </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest">
+                <div class="badge badge-danger"> <img height="10px" style="vertical-align: top" src="agents/duelist.svg"> Duelist </div>
+                <div class="badge bg-primary"> Male </div>
+                <div class="badge badge-light"> Hard </div>
+                <div class="badge badge-warning"> Number 14 </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-white bg-darkest mb-4 border border-yoru shadow-lg">
+          <strong id="contract-toggle" class="card-header border-bottom border-yoru"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Contract Skin </strong>
+          <div class="card-body show text-center contract-zoom rounded">
+            <img src="agents/yoru_w.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-4 border border-yoru shadow-lg">
+              <strong id="bio-toggle" class="card-header border-bottom border-yoru"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>Biography </strong>
+              <div class="card-body show">
+                <div class="mt-3"> <small class="text-muted"> 
+                    "Japanese native Yoru rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look."
+                </small> </div>
+                <p class="card-text mt-4 mb-2"> 
+                    Yoru is a <span class="text-danger">duelist</span> agent who specializes in <span class="text-danger">faking out opponents</span> and <span class="text-danger">moving into unsuspecting positions</span>. He has two abilities that allow him to <span class="text-danger">move to a new location stealthily</span> and another that is designed to make enemies <span class="text-danger">think that he has moved</span>. So keeping track of him is near impossible at times.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"> </div>
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-3 border border-yoru shadow-lg">
+              <strong id="abilities-toggle" class="card-header border-bottom border-yoru"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Abilities </strong>
+              <div class="card-body text-center show">
+                <div class="btn-toolbar btn-toolbar-sm mt-3 d-inline-block" role="group" aria-label="Basic example">
+                  <button id="a1-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/yoru_1.png"></button>
+                  <button id="a2-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/yoru_2.png"></button>
+                  <button id="a3-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/yoru_3.png"></button>
+                  <button id="a4-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/yoru_4.png"></button>
+                </div>
+                <div id="a1">
+                  <h3 class="text-yoru shadow-title"> <strong>BLINDSIDE</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> to rip an unstable dimensional fragment from reality. <strong class="text-warning">FIRE</strong> to throw the fragment, activating a flash that winds up once it collides with a hard surface in world.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Damage: N/A</div>
+                    <div class="badge badge-success"> Duration: 1.75s Nearsight </div>
+                    <div class="badge badge-info"> Uses: 2 </div>
+                    <div class="badge badge-light"> Reset: N/A </div>
+                    <div class="badge badge-primary"> Cost: 250 </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a1-v" class="embed-responsive-item" autoplay loop muted><source src="agents/yoru_1_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a2" class="no-display">
+                  <h3 class="text-yoru shadow-title"> <strong>GATECRASH</strong> </h3>
+                  <div class="mb-3">
+                    <strong class="text-warning">EQUIP</strong> a rift tether, <strong class="text-warning">FIRE</strong> to send the tether forward. <strong class="text-warning">ALT FIRE</strong> to place a stationary tether. <strong class="text-warning">ACTIVATE</strong> to teleport to the tether's location. <strong class="text-warning">USE</strong> to trigger a fake teleport. 
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Damage: N/A</div>
+                    <div class="badge badge-success"> Duration: 30s  </div>
+                    <div class="badge badge-info"> Uses: 2 </div>
+                    <div class="badge badge-light"> Reset: 40s </div>
+                    <div class="badge badge-primary"> Cost: 150 </div>
+                    <div class="badge badge-secondary"> Range: 3m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a2-v" class="embed-responsive-item" autoplay loop muted><source src="agents/yoru_2_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a3" class="no-display"> 
+                  <h3 class="text-yoru shadow-title"> <strong>FAKEOUT</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> an echo that transforms into a mirror image of Yoru when activated <strong class="text-warning">FIRE</strong> to instantly activate the mirror image and send it forward <strong class="text-warning">ALT FIRE</strong> to place an inactive echo <strong class="text-warning">USE</strong> to transform an inactive echo into a mirror image and send it forward. Mirror images explode in a blinding flash when destroyed by enemies.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Damage: N/A </div>
+                    <div class="badge badge-success"> Duration: 10s, 3.1s Nearsight </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Reset: N/A </div>
+                    <div class="badge badge-primary"> Cost: 100 </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a3-v" class="embed-responsive-item" autoplay loop muted><source src="agents/yoru_3_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a4" class="no-display">
+                  <h3 class="text-yoru shadow-title"> <strong>DIMENSIONAL DRIFT</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a mask that can see between dimensions. <strong class="text-warning">FIRE</strong> to drift into Yoru's dimension, unable to be affected or seen by enemies from the outside. <strong class="text-warning">REACTIVATE</strong> to exit Yoru's dimension early.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Damage: N/A </div>
+                    <div class="badge badge-success"> Duration: 12s, 0.8s Equip & Return time </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Detection Radius: 15m(only footsteps) </div>
+                    <div class="badge badge-primary"> Cost: 7 Charges </div>
+                    <div class="badge badge-secondary"> HP: N/A </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a4-v" class="embed-responsive-item" autoplay loop muted><source src="agents/yoru_4_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>

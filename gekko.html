@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Zenitsu">
+    <link rel="shortcut icon" type="image/png" href="/agents/gekko.png">
+    <title>Gekko</title>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/2bf095b9ea.js" crossorigin="anonymous"></script>
+    <!-- JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css/js for this template -->
+    <link href="custom_css.css" rel="stylesheet">
+    <script src="custom_js.js"></script>
+    <script></script>
+  </head>
+
+  <style>
+    body {
+      background-image: url(./bg/gekko.jpg);
+      background-repeat: no-repeat;
+      width: auto;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+</style>
+
+  <body class="bg-dark mt-5 py-5">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="btn-lg btn-outline-dark bg-dark border-2" data-toggle="tooltip" data-placement="bottom" title="Home Page" href='./'>
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+            </li>
+          </ul>
+    </nav>
+
+    <audio autoplay id="background-music" loop>
+      <source src="./bgms/Gekko_BGM.mp3" type="audio/mpeg">
+  </audio>
+  </body>
+
+  <main role="main" class="container">
+    <div class="w-50 pt-2 pb-5 mx-auto text-center text-light">
+      <h1 class='shadow-title'><span class="text-danger text-size-5">NO.21 //</span><span class="text-gekko font-weight-bold"> GEKKO </span></h1>
+      <div class=""><small>"Oye! Monster on the Loose!"</small></div>
+    </div>
+    <div class="row justify-content-around text-light">
+      <div class="col-lg-4">
+        <div class="card border border-gekko bg-darkest mb-4 shadow-lg">
+          <img src="agents/gekko_m.png" class="card-img-top" alt="">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-darkest">
+              <div class="row">
+                <div class="col-lg-5"><strong> Real Name </strong></div>
+                <div class="col-lg-7"> Mateo Armendáriz De la Fuente </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-top border-bottom border-gekko">
+              <div class="row">
+                <div class="col-lg-5"><strong> Origin </strong></div>
+                <div class="col-lg-7"> America </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-bottom border-gekko">
+              <div class="row">
+                <div class="col-lg-5"><strong> Affiliation </strong></div>
+                <div class="col-lg-7"> Valorant Protocol </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest">
+                <div class="badge badge-danger"> <img height="10px" style="vertical-align: top" src="agents/initiator.svg"> Initiator </div>
+                <div class="badge bg-primary"> Male </div>
+                <div class="badge badge-light"> Medium </div>
+                <div class="badge badge-warning"> Number 21 </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-white bg-darkest mb-4 border border-gekko shadow-lg">
+          <strong id="contract-toggle" class="card-header border-bottom border-gekko"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Contract Skin </strong>
+          <div class="card-body show text-center contract-zoom rounded">
+            <img src="agents/gekko_w.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-4 border border-gekko shadow-lg">
+              <strong id="bio-toggle" class="card-header border-bottom border-gekko"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>Biography </strong>
+              <div class="card-body show">
+                <div class="mt-3"> <small class="text-muted"> 
+                  "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again." 
+                </small> </div>
+                <p class="card-text mt-4 mb-2"> 
+                    Born and raised in Los Angeles, California, Mateo Armendáriz De la Fuente, call-sign "Gekko", is VALORANT's <span class="text-danger">twenty-second</span> recruit and the <span class="text-danger">owner</span> of Dizzy, Mosh, Thrash, and Wingman, a crew of four creatures known as <span class="text-danger">radivores</span> with the ability to transform from their primary globule state into <span class="text-danger">mimicked animalistic forms</span>. Previously property of <span class="text-danger">K-SEC</span>, these radivores now live with Gekko, often traveling with him wherever he goes within their small carrier that Gekko wears as a sash, from which they'll emerge and take form at a moment's notice to assist him.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"> </div>
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-3 border border-gekko shadow-lg">
+              <strong id="abilities-toggle" class="card-header border-bottom border-gekko"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Abilities </strong>
+              <div class="card-body text-center show">
+                <div class="btn-toolbar btn-toolbar-sm mt-3 d-inline-block" role="group" aria-label="Basic example">
+                  <button id="a1-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/gekko_1.png"></button>
+                  <button id="a2-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/gekko_2.png"></button>
+                  <button id="a3-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/gekko_3.png"></button>
+                  <button id="a4-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/gekko_4.png"></button>
+                </div>
+                <div id="a1">
+                  <h3 class="text-gekko shadow-title"> <strong>Mosh Pit</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> Mosh. <strong class="text-warning">FIRE</strong> to throw Mosh like a grenade. <strong class="text-warning">ALT FIRE</strong> to lob. Upon landing Mosh duplicates across a large area that deals a small amount of damage over time then after a short delay explodes.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Basic </div>
+                    <div class="badge badge-danger"> Damage: <u><b>DoT:</b></u> 1/tick, Total 30,<u><b>Explosion:</b></u> 75-150 </div>
+                    <div class="badge badge-success"> Windup: 3s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Equip Time: 0.6s </div>
+                    <div class="badge badge-primary"> Cost: 250 </div>
+                    <div class="badge badge-secondary"> Radii: 5.5m(Inner), 6.2m(Outer) </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a1-v" class="embed-responsive-item" autoplay loop muted><source src="agents/gekko_1_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a2" class="no-display">
+                  <h3 class="text-gekko shadow-title"> <strong>Wingman</strong> </h3>
+                  <div class="mb-3">
+                    <strong class="text-warning">EQUIP</strong> Wingman. <strong class="text-warning">FIRE</strong> to send Wingman forward seeking enemies. Wingman unleashes a Concussive blast toward the first enemy he sees. <strong class="text-warning">ALT FIRE</strong> when targeting a Spike site or planted Spike to have Wingman defuse or plant the Spike. To plant, Gekko must have the Spike in his inventory.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Basic </div>
+                    <div class="badge badge-danger"> Concuss Duration: 2.5s </div>
+                    <div class="badge badge-success"> Run Speed: 6.3 m/s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Search Duration: 5s </div>
+                    <div class="badge badge-primary"> Cost: 300 </div>
+                    <div class="badge badge-secondary"> HP: 80 </div>
+                    <div class="badge badge-warning"> Max Detection Cone Distance: 15m </div>
+                    <div class="badge badge-danger"> Detection Cone Angle: 70° </div>
+                    <div class="badge badge-success"> Proximity to Target Needed to Activate Blast: 7m </div>
+                    <div class="badge badge-info"> Blast Windup: 0.6s </div>
+                    <div class="badge badge-light"> Restock: 10s(Restores by Globule) </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a2-v" class="embed-responsive-item" autoplay loop muted><source src="agents/gekko_2_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a3" class="no-display">
+                  <h3 class="text-gekko shadow-title"> <strong>Dizzy</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> Dizzy. <strong class="text-warning">FIRE</strong> to send Dizzy soaring forward through the air. Dizzy charges then unleashes plasma blasts at enemies in line of sight. Enemies hit by her plasma are Blinded.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Signature </div>
+                    <div class="badge badge-danger"> Plasma Blind Duration: 1 Second at Max Potency, 1 Second to Fade Away </div>
+                    <div class="badge badge-success"> Plasma Explosion Radius on Target: 2.5m </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Restock: 10s(Restores by Globule) </div>
+                    <div class="badge badge-primary"> Cost: Free </div>
+                    <div class="badge badge-secondary"> HP: 20 </div>
+                    <div class="badge badge-warning"> Max Detection Distance: 45m </div>
+                    <div class="badge badge-danger"> Duration: 2.5s </div>
+                    <div class="badge badge-success"> Windup: 0.35s </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a3-v" class="embed-responsive-item" autoplay loop muted><source src="agents/gekko_3_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a4" class="no-display">
+                  <h3 class="text-gekko shadow-title"> <strong>Thrash</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> Thrash. <strong class="text-warning">FIRE</strong> to link with Thrash's mind and steer her through enemy territory. <strong class="text-warning">ACTIVATE</strong> to lunge forward and explode, Detaining any players in a small radius.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Ability Type: Ultimate </div>
+                    <div class="badge badge-danger"> Detain Duration: 6s </div>
+                    <div class="badge badge-success"> Deployment Duration: 0.6s </div>
+                    <div class="badge badge-info"> Velocity: 11.22 m/s </div>
+                    <div class="badge badge-light"> Restock: 10s(Restores by Globule) </div>
+                    <div class="badge badge-primary"> Cost: 7 Charges </div>
+                    <div class="badge badge-secondary"> HP: 200 </div>
+                    <div class="badge badge-warning"> Search Duration: 6s </div>
+                    <div class="badge badge-danger"> Lunge Distance: 13m </div>
+                    <div class="badge badge-success"> Lunge Duration: 0.8s </div>
+                    <div class="badge badge-info"> Lunge Radius: 35m </div>
+                    <div class="badge badge-light"> Max Vision Radius: 20m </div>
+                    <div class="badge badge-primary"> Vision Restoration Duration: 1.5s </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a4-v" class="embed-responsive-item" autoplay loop muted><source src="agents/gekko_4_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>

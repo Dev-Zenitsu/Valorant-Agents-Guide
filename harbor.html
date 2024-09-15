@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Zenitsu">
+    <link rel="shortcut icon" type="image/png" href="/agents/harbor.png">
+    <title>Harbor</title>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/2bf095b9ea.js" crossorigin="anonymous"></script>
+    <!-- JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css/js for this template -->
+    <link href="custom_css.css" rel="stylesheet">
+    <script src="custom_js.js"></script>
+    <script></script>
+  </head>
+
+  <style>
+    body {
+      background-image: url(./bg/harbor.jpg);
+      background-repeat: no-repeat;
+      width: auto;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+</style>
+
+  <body class="bg-dark mt-5 py-5">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="btn-lg btn-outline-dark bg-dark border-2" data-toggle="tooltip" data-placement="bottom" title="Home Page" href='./'>
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+            </li>
+          </ul>
+    </nav>
+
+    <audio autoplay id="background-music" loop>
+      <source src="./bgms/Harbor_BGM.mp3" type="audio/mpeg">
+  </audio>
+  </body>
+
+  <main role="main" class="container">
+    <div class="w-50 pt-2 pb-5 mx-auto text-center text-light">
+      <h1 class='shadow-title'><span class="text-danger text-size-5">NO.20 //</span><span class="text-harbor font-weight-bold"> HARBOR </span></h1>
+      <div class=""><small>"I Suggest You Move!"</small></div>
+    </div>
+    <div class="row justify-content-around text-light">
+      <div class="col-lg-4">
+        <div class="card border border-harbor bg-darkest mb-4 shadow-lg">
+          <img src="agents/harbor_m.png" class="card-img-top" alt="">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-darkest">
+              <div class="row">
+                <div class="col-lg-5"><strong> Real Name </strong></div>
+                <div class="col-lg-7"> Varun Batra </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-top border-bottom border-harbor">
+              <div class="row">
+                <div class="col-lg-5"><strong> Origin </strong></div>
+                <div class="col-lg-7"> India </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-bottom border-harbor">
+              <div class="row">
+                <div class="col-lg-5"><strong> Affiliation </strong></div>
+                <div class="col-lg-7"> Valorant Protocol, REALM </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest">
+                <div class="badge badge-danger"> <img height="10px" style="vertical-align: top" src="agents/controller.svg"> Controller </div>
+                <div class="badge bg-primary"> Male </div>
+                <div class="badge badge-light"> Medium </div>
+                <div class="badge badge-warning"> Number 20 </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-white bg-darkest mb-4 border border-harbor shadow-lg">
+          <strong id="contract-toggle" class="card-header border-bottom border-harbor"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Contract Skin </strong>
+          <div class="card-body show text-center contract-zoom rounded">
+            <img src="agents/harbor_w.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-4 border border-harbor shadow-lg">
+              <strong id="bio-toggle" class="card-header border-bottom border-harbor"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>Biography </strong>
+              <div class="card-body show">
+                <div class="mt-3"> <small class="text-muted"> 
+                  "Hailing from India's coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him." 
+                </small> </div>
+                <p class="card-text mt-4 mb-2"> 
+                  A former task force agent, Varun Batra is the unexpected owner of an ancient and powerful artifact with the power to <span class="text-danger">control and summon</span> masses of water out of nothing. Previously working for REALM to recover such sorts of items from the black market and return them to their rightful owners, Batra was regarded as a kind-hearted man but also a <span class="text-danger">deadly force</span> to deal with in combat. His dedication to the cause through years of service fighting criminals earned him a reputation as a hero and a <span class="text-danger">legend</span>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"> </div>
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-3 border border-harbor shadow-lg">
+              <strong id="abilities-toggle" class="card-header border-bottom border-harbor"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Abilities </strong>
+              <div class="card-body text-center show">
+                <div class="btn-toolbar btn-toolbar-sm mt-3 d-inline-block" role="group" aria-label="Basic example">
+                  <button id="a1-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/harbor_1.png"></button>
+                  <button id="a2-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/harbor_2.png"></button>
+                  <button id="a3-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/harbor_3.png"></button>
+                  <button id="a4-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/harbor_4.png"></button>
+                </div>
+                <div id="a1">
+                  <h3 class="text-harbor shadow-title"> <strong>Cascade</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a wave of water. <strong class="text-warning">FIRE</strong> to send the wave rolling forward and through walls. <strong class="text-warning">RE-USE</strong> to stop the wave. Players hit are Slowed.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Debuff: 30% Slow </div>
+                    <div class="badge badge-danger"> Slow Duration: 0.6s </div>
+                    <div class="badge badge-success"> Stationary Duration: 7s </div>
+                    <div class="badge badge-info"> Uses: 2 </div>
+                    <div class="badge badge-light"> Velocity: 6.5 m/s </div>
+                    <div class="badge badge-primary"> Cost: 150 </div>
+                    <div class="badge badge-secondary"> Dimensions: 9.75m Length, 6m Height </div>
+                    <div class="badge badge-warning"> Travel Distance: 35m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a1-v" class="embed-responsive-item" autoplay loop muted><source src="agents/harbor_1_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a2" class="no-display">
+                  <h3 class="text-harbor shadow-title"> <strong>Cove</strong> </h3>
+                  <div class="mb-3">
+                    <strong class="text-warning">EQUIP</strong> a sphere of shielding water. <strong class="text-warning">FIRE</strong> to throw. <strong class="text-warning">ALT FIRE</strong> to lob. Upon impacting the ground, spawn a destructible water shield that blocks bullets.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Windup: 0.8s </div>
+                    <div class="badge badge-danger"> Radius: 4.5m </div>
+                    <div class="badge badge-success"> Shield Duration: 15s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> De-activation Time: 1s </div>
+                    <div class="badge badge-primary"> Cost: 250 </div>
+                    <div class="badge badge-secondary"> HP: 500 </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a2-v" class="embed-responsive-item" autoplay loop muted><source src="agents/harbor_2_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a3" class="no-display">
+                  <h3 class="text-harbor shadow-title"> <strong>High Tide</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a wall of water. <strong class="text-warning">FIRE</strong> to send the water forward along the ground. <strong class="text-warning">HOLD FIRE</strong> to guide the water in the direction of your crosshair, passing through the world, spawning a wall along the water's path. <strong class="text-warning">ALT FIRE</strong> while bending to stop the water early. Players hit are Slowed.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Debuff: 30% Slow </div>
+                    <div class="badge badge-danger"> Slow Duration: 0.6s </div>
+                    <div class="badge badge-success"> Duration: 15s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Reset: 40s </div>
+                    <div class="badge badge-primary"> Cost: Free </div>
+                    <div class="badge badge-secondary"> Velocity: 25 m/s </div>
+                    <div class="badge badge-warning"> Maximum Bend: 180°/second </div>
+                    <div class="badge badge-danger"> Travel Distance: 50m </div>
+                    <div class="badge badge-success"> Wall Height: 5m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a3-v" class="embed-responsive-item" autoplay loop muted><source src="agents/harbor_3_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a4" class="no-display">
+                  <h3 class="text-harbor shadow-title"> <strong>Reckoning</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> the full power of your Artifact. <strong class="text-warning">FIRE</strong> to summon a geyser pool on the ground. Enemy players in the area are targeted by successive geyser strikes. Players caught within a strike are Concussed.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-warning"> Concuss Duration: 2s </div>
+                    <div class="badge badge-danger"> Concuss Windup: 1.35s </div>
+                    <div class="badge badge-success"> Duration: 30s </div>
+                    <div class="badge badge-info"> Cast Location: 24m </div>
+                    <div class="badge badge-light"> Reset: 40s </div>
+                    <div class="badge badge-primary"> Cost: 7 Charges </div>
+                    <div class="badge badge-secondary"> Radius: 21.25m </div>
+                    <div class="badge badge-warning"> Cast Time: 0.2s </div>
+                    <div class="badge badge-danger"> Base Pool Travel Speed: 0.875 m/s </div>
+                    <div class="badge badge-success"> Pool Duration: 9s </div>
+                    <div class="badge badge-info"> Strikes: 3 </div>
+                    <div class="badge badge-light"> Rate of Strikes: 1 every 3 seconds </div>
+                    <div class="badge badge-primary"> Concuss Radius: 4.5m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a4-v" class="embed-responsive-item" autoplay loop muted><source src="agents/harbor_4_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>

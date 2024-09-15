@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Zenitsu">
+    <link rel="favicon icon" type="image/png" href="/agents/astra.webp">
+    <title>Astra</title>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/2bf095b9ea.js" crossorigin="anonymous"></script>
+    <!-- JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css/js for this template -->
+    <link href="custom_css.css" rel="stylesheet">
+    <script src="custom_js.js"></script>
+  </head>
+
+  <style>
+    body {
+      background-image: url(./bg/astra.jpg);
+      background-repeat: no-repeat;
+      width: auto;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+</style>
+
+  <body class="bg-dark mt-5 py-5">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="btn-lg btn-outline-dark bg-dark border-2" data-toggle="tooltip" data-placement="bottom" title="Home Page" href='./'>
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+            </li>
+        </ul>
+                    
+    <audio autoplay id="background-music" loop>
+      <source src="./bgms/Astra_BGM.mp3" type="audio/mpeg">
+  </audio>
+    </nav>
+  </body>
+
+  <main role="main" class="container">
+    <div class="w-50 pt-2 pb-5 mx-auto text-center text-light">
+      <h1 class='shadow-title'><span class="text-danger text-size-5">NO.15 //</span><span class="text-astra font-weight-bold"> ASTRA </span></h1>
+      <div class=""><small>"You Are Divided!"</small></div>
+    </div>
+    <div class="row justify-content-around text-light">
+      <div class="col-lg-4">
+        <div class="card border border-astra bg-darkest mb-4 shadow-lg">
+          <img src="agents/astra_m.png" class="card-img-top" alt="">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-darkest">
+              <div class="row">
+                <div class="col-lg-5"><strong> Real Name </strong></div>
+                <div class="col-lg-7"> Efia Danso </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-top border-bottom border-astra">
+              <div class="row">
+                <div class="col-lg-5"><strong> Origin </strong></div>
+                <div class="col-lg-7"> Ghana </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-bottom border-astra">
+              <div class="row">
+                <div class="col-lg-5"><strong>Affiliation </strong></div>
+                <div class="col-lg-7"> Valorant Protocol </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest">
+                <div class="badge badge-danger"> <img height="10px" style="vertical-align: top" src="agents/controller.svg"> Controller </div>
+                <div class="badge bg-primary"> Female </div>
+                <div class="badge badge-light"> Hard </div>
+                <div class="badge badge-warning"> Number 15 </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-white bg-darkest mb-4 border border-astra shadow-lg">
+          <strong id="contract-toggle" class="card-header border-bottom border-astra"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Contract Skin </strong>
+          <div class="card-body show text-center contract-zoom rounded">
+            <img src="agents/astra_w.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-4 border border-astra shadow-lg">
+              <strong id="bio-toggle" class="card-header border-bottom border-astra"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>Biography </strong>
+              <div class="card-body show">
+                <div class="mt-3"> <small class="text-muted"> 
+                  "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she’s always eons ahead of her enemy’s next move." 
+                </small> </div>
+                <p class="card-text mt-4 mb-2"> 
+                    Astra is an <span class="text-danger">energetic and joyful</span> agent who doesn't hold back what she wants to say. She is fairly <span class="text-danger">straightforward</span> when it comes to expressing herself and friendly banter is definitely her go-to style. She seems to have an <span class="text-danger">affinity for liveliness,</span> and doesn't like it when people and places have <span class="text-danger">no 'color' or 'personality'</span> to them.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"> </div>
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-3 border border-astra shadow-lg">
+              <strong id="abilities-toggle" class="card-header border-bottom border-astra"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Abilities </strong>
+              <div class="card-body text-center show">
+                <div class="btn-toolbar btn-toolbar-sm mt-3 d-inline-block" role="group" aria-label="Basic example">
+                  <button id="a1-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/astra_1.png"></button>
+                  <button id="a2-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/astra_2.png"></button>
+                  <button id="a3-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/astra_3.png"></button>
+                  <button id="a4-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/astra_4.png"></button>
+                </div>
+                <div id="a1">
+                  <h3 class="text-astra shadow-title"> <strong>Gravity Well</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">PLACE</strong> Stars in Astral Form (X) <strong class="text-warning">ACTIVATE</strong> a Star to form a Gravity Well. Players in the area are pulled toward the center before it explodes, making all players still trapped inside Vulnerable.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Damage: N/A </div>
+                    <div class="badge badge-success"> Duration: 2s Pull, 5s Vulnerable </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Reset: 45s </div>
+                    <div class="badge badge-primary"> Cost: N/A </div>
+                    <div class="badge badge-secondary"> Radius: 4.75m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a1-v" class="embed-responsive-item" autoplay loop muted><source src="agents/astra_1_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a2" class="no-display">
+                  <h3 class="text-astra shadow-title"> <strong>Nova Pulse</strong> </h3>
+                  <div class="mb-3"> 
+                    Place Stars in Astral Form. <strong class="text-warning">ACTIVATE</strong> a Star to detonate a Nova Pulse. The Nova Pulse charges briefly then strikes, concussing all players in its area.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Damage: N/A </div>
+                    <div class="badge badge-success"> Duration: 4s Concussion </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Reset: 45s </div>
+                    <div class="badge badge-primary"> Cost: N/A </div>
+                    <div class="badge badge-secondary"> Radius: 4.75m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a2-v" class="embed-responsive-item" autoplay loop muted><source src="agents/astra_2_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a3" class="no-display">
+                  <h3 class="text-astra shadow-title"> <strong>Nebula</strong> </h3>
+                  <div class="mb-3"> 
+                    Place Stars in Astral Form. <strong class="text-warning">ACTIVATE</strong> a Star to transform it into a Nebula (smoke). <strong class="text-warning">USE</strong> a Star to Dissipate it, returning the Star to be placed in a new location after a delay. Dissipate briefly forms a fake Nebula at the Star's location before returning.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Dissipate: 1s </div>
+                    <div class="badge badge-success"> Duration: 14.25s, Expiration Warning at 12.75s</div>
+                    <div class="badge badge-info"> Uses: 2 </div>
+                    <div class="badge badge-light"> Reset: 25s </div>
+                    <div class="badge badge-primary"> Cost: N/A </div>
+                    <div class="badge badge-secondary"> Radius: 4.75m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a3-v" class="embed-responsive-item" autoplay loop muted><source src="/agents/astra_3_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a4" class="no-display">
+                  <h3 class="text-astra shadow-title"> <strong>Cosmic Divide</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">ACTIVATE</strong>  to enter Astral Form where you can place Stars with <strong class="text-warning">FIRE</strong>. Stars can be reactivated later, transforming them into a Nova Pulse, Nebula, or Gravity Well. When Cosmic Divide is charged, use <strong class="text-warning">ALT FIRE</strong> in Astral Form to begin aiming it, then <strong class="text-warning">FIRE</strong> to select two locations. An infinite Cosmic Divide connects the two points you select. Cosmic Divide blocks bullets and heavily dampens audio.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Windup Time: 2.667s </div>
+                    <div class="badge badge-success"> Duration: 21s-Total Effective Duration, 2.5s-Deformation Time </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Reset: N/A </div>
+                    <div class="badge badge-primary"> Cost: 7 Charges </div>
+                    <div class="badge badge-secondary"> Range: 38m </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a4-v" class="embed-responsive-item" autoplay loop muted><source src="agents/astra_4_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Zenitsu">
+    <link rel="shortcut icon" type="image/png" href="/agents/kayo.png">
+    <title>KAY/O</title>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/2bf095b9ea.js" crossorigin="anonymous"></script>
+    <!-- JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css/js for this template -->
+    <link href="custom_css.css" rel="stylesheet">
+    <script src="custom_js.js"></script>
+  </head>
+
+  <style>
+    body {
+      background-image: url(./bg/kayo.jpeg);
+      background-repeat: no-repeat;
+      width: auto;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+</style>
+
+  <body class="bg-dark mt-5 py-5">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="btn-lg btn-outline-dark bg-dark border-2" data-toggle="tooltip" data-placement="bottom" title="Home Page" href='./'>
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+            </li>
+        </ul>
+                            
+    <audio autoplay id="background-music" loop>
+      <source src="./bgms/KAYO_BGM.mp3" type="audio/mpeg">
+  </audio>
+    </nav>
+  </body>
+
+  <main role="main" class="container">
+    <div class="w-50 pt-2 pb-5 mx-auto text-center text-light">
+      <h1 class='shadow-title'><span class="text-danger text-size-5">NO.16 //</span><span class="text-kayo font-weight-bold"> KAY/O </span></h1>
+      <div class=""><small>"You Are Powerless!"</small></div>
+    </div>
+    <div class="row justify-content-around text-light">
+      <div class="col-lg-4">
+        <div class="card border border-kayo bg-darkest mb-4 shadow-lg">
+          <img src="agents/kayo_m.png" class="card-img-top" alt="">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-darkest">
+              <div class="row">
+                <div class="col-lg-5"><strong> Real Name </strong></div>
+                <div class="col-lg-7"> KAY/O </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-top border-bottom border-kayo">
+              <div class="row">
+                <div class="col-lg-5"><strong> Origin </strong></div>
+                <div class="col-lg-7"> Alternate Timeline Earth </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest border-bottom border-kayo">
+              <div class="row">
+                <div class="col-lg-5"><strong>Affiliation </strong></div>
+                <div class="col-lg-7"> Valorant Protocol </div>
+              </div>
+            </li>
+            <li class="list-group-item bg-darkest">
+                <div class="badge badge-danger"> <img height="10px" style="vertical-align: top" src="agents/initiator.svg"> Initiator </div>
+                <div class="badge bg-primary"> Male </div>
+                <div class="badge badge-light"> Hard </div>
+                <div class="badge badge-warning"> Number 16 </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-white bg-darkest mb-4 border border-kayo shadow-lg">
+          <strong id="contract-toggle" class="card-header border-bottom border-kayo"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Contract Skin </strong>
+          <div class="card-body show text-center contract-zoom rounded">
+            <img src="agents/kayo_w.png" width="85%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-4 border border-kayo shadow-lg">
+              <strong id="bio-toggle" class="card-header border-bottom border-kayo"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>Biography </strong>
+              <div class="card-body show">
+                <div class="mt-3"> <small class="text-muted"> 
+                  "KAY/O comes from an Alternate Timeline Earth where Radiants were enemies of humans and were being used as weapons. He may have arrived from his timeline using a specialized teleporter that took him back in time to Earth 1, arriving on board the destroyed Kingdom container ship "Meridian" at an island in the Atlantic Ocean." 
+                </small> </div>
+                <p class="card-text mt-4 mb-2"> 
+                  KAY/O is a <strong class="text-danger">machine of war</strong> built for a single purpose: <strong class="text-danger">neutralizing radiants</strong>. His power to <strong class="text-danger">suppress</strong> enemy abilities cripples his opponents' capacity to fight back, securing him and his allies the ultimate edge.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"> </div>
+          <div class="col-lg-12">
+            <div class="card text-white bg-darkest mb-3 border border-kayo shadow-lg">
+              <strong id="abilities-toggle" class="card-header border-bottom border-kayo"> <svg class="bi bi-chevron-right" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg> Abilities </strong>
+              <div class="card-body text-center show">
+                <div class="btn-toolbar btn-toolbar-sm mt-3 d-inline-block" role="group" aria-label="Basic example">
+                  <button id="a1-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/kayo_1.png"></button>
+                  <button id="a2-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/kayo_2.png"></button>
+                  <button id="a3-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/kayo_3.png"></button>
+                  <button id="a4-btn" type="button" class="btn btn-dark btn-zoom mb-3 mx-3 shadow"><img height="64px" src="agents/kayo_4.png"></button>
+                </div>
+                <div id="a1">
+                  <h3 class="text-kayo shadow-title"> <strong>FRAG/ment</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> an explosive fragment. <strong class="text-warning">FIRE</strong> to throw. The fragment sticks to the floor and explodes multiple times, dealing near lethal damage at the center with each explosion.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Damage: 25-60 per Tick, 100-240 Total</div>
+                    <div class="badge badge-success"> Duration: 4s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Reset: N/A </div>
+                    <div class="badge badge-primary"> Cost: 200 </div>
+                    <div class="badge badge-secondary"> Radius: 1m(inner), 4m(outer)  </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a1-v" class="embed-responsive-item" autoplay loop muted><source src="agents/kayo_1_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a2" class="no-display">
+                  <h3 class="text-kayo shadow-title"> <strong>FLASH/drive</strong> </h3>
+                  <div class="mb-3">
+                    <strong class="text-warning">EQUIP</strong> a flash grenade. <strong class="text-warning">FIRE</strong> to overhand throw. <strong class="text-warning">ALT FIRE</strong> to lob a weaker version that explodes quickly. The flash grenade explodes after a short fuse, Blinding anyone in line of sight.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Damage: N/A</div>
+                    <div class="badge badge-success"> Duration: 8s  </div>
+                    <div class="badge badge-info"> Uses: 2 </div>
+                    <div class="badge badge-light"> Cost: 250 </div>
+                    <div class="badge badge-primary"> Windup Time: 1.6s(Primary Fire), 1s(Alt Fire) </div>
+                    <div class="badge badge-secondary"> Max Blind Duration: 2.25s(Primary Fire), 1.25s(Alt Fire) </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a2-v" class="embed-responsive-item" autoplay loop muted><source src="agents/kayo_2_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a3" class="no-display">
+                  <h3 class="text-kayo shadow-title"> <strong>ZERO/point</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">EQUIP</strong> a suppression blade. <strong class="text-warning">FIRE</strong> to throw. The blade sticks to the first surface it hits, winds up, and Suppresses anyone in the radius of the explosion. Enemies can destroy this blade.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Damage: N/A </div>
+                    <div class="badge badge-success"> Suppression Duration: 8s </div>
+                    <div class="badge badge-info"> Uses: 1 </div>
+                    <div class="badge badge-light"> Reset: 40s </div>
+                    <div class="badge badge-primary"> Cost: Free </div>
+                    <div class="badge badge-secondary"> HP: 20 </div>
+                    <div class="badge badge-info">Radius: 15m</div> 
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a3-v" class="embed-responsive-item" autoplay loop muted><source src="agents/kayo_3_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+                <div id="a4" class="no-display">
+                  <h3 class="text-kayo shadow-title"> <strong>NULL/cmd</strong> </h3>
+                  <div class="mb-3"> 
+                    <strong class="text-warning">INSTANTLY</strong> overload with polarized radianite energy that pulses from KAY/O in a massive radius. Enemies hit with pulses are Suppressed for a short duration. While overloaded, KAY/O gains Combat Stim and can be re-stabilized if downed.
+                  </div>
+                  <div class="text-left ml-2 mb-4"> 
+                    <div class="badge badge-danger"> Radius: 42.5m </div>
+                    <div class="badge badge-success"> Suppression Duration: 4s </div>
+                    <div class="badge badge-info"> Buffs: +15% Fire Rate, +10% Reload Speed, +10% Recovery Speed </div>
+                    <div class="badge badge-light"> Overloaded Duration: 12s </div>
+                    <div class="badge badge-primary"> Cost: 8 Charges </div>
+                    <div class="badge badge-secondary"> Downed HP: 850 </div>
+                    <div class="badge badge-danger"> Downed Duration: 15s </div>
+                    <div class="badge badge-success"> Stabilization Duration: 3s </div>
+                    <div class="badge badge-info"> Revive Duration: 1.55s </div>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video id="a4-v" class="embed-responsive-item" autoplay loop muted><source src="agents/kayo_4_v.mp4" type="video/mp4" /></video>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>
