@@ -16,6 +16,8 @@ The guide is hosted via GitHub Pages and is perfect for both beginners and seaso
 <br>
 [View the Live Guide Here👈](https://dev-zenitsu.github.io/Valorant-Agents-Guide/)
 <br>
+<b>IMPORTANT NOTE:</b> There are videos of every abilities of the agents. If the the videos doesn't loads, wait for some time or try to refresh the page.
+<br>
 <br>
 Remake: @jma8774
 <br>
