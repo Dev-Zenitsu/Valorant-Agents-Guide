@@ -14,8 +14,9 @@ This guide is designed to be an easy-to-navigate reference for players looking t
 <br>
 The guide is hosted via GitHub Pages and is perfect for both beginners and seasoned players looking to sharpen their skills.
 <br>
-[View the Live Guide Here](https://dev-zenitsu.github.io/Valorant-Agents-Guide/)
-
+[View the Live Guide Here👈](https://dev-zenitsu.github.io/Valorant-Agents-Guide/)
+<br>
+<br>
 Remake: @jma8774
 <br>
 Thank You for Allowing me to Remake your Work ;D
