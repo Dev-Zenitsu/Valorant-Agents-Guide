@@ -19,6 +19,6 @@ The guide is hosted via GitHub Pages and is perfect for both beginners and seaso
 <b>IMPORTANT NOTE:</b> There are videos of every abilities of the agents. If the the videos doesn't loads, wait for some time or try to refresh the page.
 <br>
 <br>
-Remake: [@jma8774](https://github.com/username)
+Remake: [@jma8774](https://github.com/jma8774)
 <br>
 Thank You for Allowing me to Remake your Work ;D
