@@ -1,10 +1,16 @@
 # Valorant-Agents-Guide
 
-Use this website to learn more about each of the Valorant agents. You can find it here
+This guide is designed to be an easy-to-navigate reference for players looking to master each agent's unique abilities and roles in Valorant. Whether you're a new player learning the ropes or a veteran refining your strategy, this guide offers valuable insights into how to effectively use each agent in competitive play.
 <br>
-👇
+<b><u>Features</u>:</b>
 <br>
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://dev-zenitsu.github.io/Valorant-Agents-Guide/)
+✧ <b>Agent Profiles:</b> Explore detailed information on all agents, including their abilities and ideal playstyles.
+✧ <b>Role Breakdown:</b> Learn the roles that each agent fills in a team, whether Duelist, Controller, Sentinel, or Initiator.
+✧ <b>Gameplay Tips:</b> Discover tips and tricks to maximize each agent's potential in different maps and scenarios.
+<br>
+The guide is hosted via GitHub Pages and is perfect for both beginners and seasoned players looking to sharpen their skills.
+<br>
+## [View the Live Guide Here](https://dev-zenitsu.github.io/Valorant-Agents-Guide/)
 
 Remake: @jma8774
 <br>
